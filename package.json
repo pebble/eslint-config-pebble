@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-pebble",
   "description": "ESLint Shareable Config for Pebble",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "bugs": {
     "url": "https://github.com/pebble/eslint-config-pebble/issues"
   },
