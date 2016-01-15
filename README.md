@@ -7,7 +7,7 @@
 [npm-image]: https://img.shields.io/npm/v/eslint-config-pebble.svg?style=flat
 [npm-url]: https://npmjs.org/package/eslint-config-pebble
 
-#### An ESLint [Shareable Config](http://eslint.org/docs/developer-guide/shareable-configs) for Pebble.
+#### An [ESLint](http://eslint.org/) [Shareable Config](http://eslint.org/docs/developer-guide/shareable-configs) for Pebble.
 
 ## Install
 
