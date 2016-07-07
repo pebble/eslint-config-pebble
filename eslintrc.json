@@ -21,6 +21,8 @@
 
   "rules": {
     "accessor-pairs": 2,
+    "arrow-body-style": [2, "as-needed"],
+    "arrow-parens": [2, "always"],
     "arrow-spacing": [2, { "before": true, "after": true }],
     "brace-style": [2, "1tbs", { "allowSingleLine": true }],
     "comma-dangle": [2, "never"],
@@ -102,12 +104,23 @@
     "no-unused-expressions": 2,
     "no-unused-vars": [2, { "vars": "all", "args": "none" }],
     "no-useless-call": 2,
+    "no-var": 2,
     "no-with": 2,
     "max-params": [2, 3],
     "max-depth": [2, 4],
-    "max-len": [2, 85],
+    "max-len": [2, 85, 4, {"ignoreUrls": true}],
+    "no-unused-vars": [2, { "vars": "all", "args": "after-used" }],
     "one-var": [2, { "initialized": "never" }],
     "operator-linebreak": [2, "after"],
+    "prefer-arrow-callback": 2,
+    "prefer-const": 2,
+    "require-jsdoc": [1, {
+      "require": {
+        "FunctionDeclaration": true,
+        "MethodDefinition": true,
+        "ClassDeclaration": true
+      }
+    }],
     "quotes": [2, "single", "avoid-escape"],
     "radix": 2,
     "semi": [2, "always"],
@@ -119,6 +132,11 @@
     "spaced-comment": [2, "always", { "markers": ["global", "globals", "eslint", "eslint-disable", "*package", "!", ","] }],
     "strict": [2, "global"],
     "use-isnan": 2,
+    "valid-jsdoc": [1, {
+      "prefer": {
+        "return": "returns"
+      }
+    }],
     "valid-typeof": 2,
     "wrap-iife": [2, "any"],
     "yoda": [2, "never"],
