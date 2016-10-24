@@ -7,7 +7,7 @@
   },
   "peerDependencies": {
     "eslint": "^3.0.0",
-    "eslint-plugin-standard": "^1.1.0"
+    "eslint-plugin-standard": "^2.0.0"
   },
   "devDependencies": {
     "tape": "^4.0.0"
