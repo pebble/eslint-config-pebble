@@ -1,3 +1,13 @@
+4.0.0 / 2016-10-25
+==================
+
+ * update node versions used for travis
+ * bump deps to eslint 3.x and eslint-plugin-standard 2.x
+
+3.0.0 / 2016-08-31
+==================
+
+ * many es2015 changes (fn shorthand requirements, etc)
 
 1.2.0 / 2015-08-06
 ==================
